@@ -35,6 +35,9 @@ function renderCalendar() {
         dayClick: function(date, allDay, jsEvent, view){
             var dateOfClick = date
             $("form[id='addForm'] > input[name]").val("")
+            $("input[name='allDay']").removeAttr("value")
+            $("input[name='startDate']").attr("value","date.struct")
+            $("input[name='endDate']").attr("value","date.struct")
             $('select[name$="_day"]').val(dateOfClick.getDate())
             $('select[name$="_month"]').val(dateOfClick.getMonth() + 1)
             $('select[name$="_year"]').val(dateOfClick.getYear() + 1900)

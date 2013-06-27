@@ -34,7 +34,7 @@
          <form id="addForm" action="save">
             Title: <g:textField name="title" value="${eventInstance?.title}" />  <br/>
             Description:<g:textField name="description" value="${eventInstance?.description}" /> <br/>
-            AllDay:<g:checkBox name="allDay" value="${eventInstance?.allDay}" checked=""/>   <br/>
+            AllDay:<g:checkBox name="allDay" value="${eventInstance?.allDay}" />   <br/>
             StartDate:<g:datePicker name="startDate" precision="day"  value="${eventInstance?.startDate}"  />  <br/>
             EndDate:<g:datePicker name="endDate" precision="day"  value="${eventInstance?.endDate}"  />    <br/>
             <g:submitToRemote action="save" value="Create" update="[success:'message', failure: 'error']" onSuccess="addEventSucceed()"></g:submitToRemote>

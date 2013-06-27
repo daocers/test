@@ -119,7 +119,6 @@ class UserController {
                     allDay: true, startDate: new Date(), endDate: new Date())
 
                 if (eventInstance.save(flush: true)){
-                    println("***************")
                     userInstance.addToEvents(eventInstance)
 
                     session.userId = userInstance.id
