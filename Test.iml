@@ -42,7 +42,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="grails-2.0.4" level="application" />
     <orderEntry type="module-library" exported="">
-      <library name="Grails User Library (Test2)">
+      <library name="Grails User Library (Test)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
         </CLASSES>
@@ -51,7 +51,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="Test2-grailsPlugins" />
+    <orderEntry type="module" module-name="Test-grailsPlugins" />
   </component>
 </module>
 

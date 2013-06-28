@@ -124,7 +124,6 @@ class UserController {
                     session.userId = userInstance.id
                     session.userName = userInstance.userName
                     redirect(controller: 'event', action: 'index')
-                    return
                 }
 
 

@@ -4,10 +4,10 @@
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/full-calendar-1.5.1.0/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-ui-1.8.24/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/twitter-bootstrap-2.3.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/twitter-bootstrap-2.3.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-ui-1.8.24/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/full-calendar-1.5.1.0/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -20,40 +20,40 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/full-calendar-1.5.1.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/full-calendar-1.5.1.0/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/full-calendar-1.5.1.0/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/full-calendar-1.5.1.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/full-calendar-1.5.1.0/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/full-calendar-1.5.1.0/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/hibernate-2.0.4" />
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/hibernate-2.0.4" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-ui-1.8.24">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-ui-1.8.24/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/jquery-ui-1.8.24/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-ui-1.8.24">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-ui-1.8.24/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/jquery-ui-1.8.24/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/resources-1.1.6">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/resources-1.1.6/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/resources-1.1.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/resources-1.1.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/tomcat-2.0.4" />
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/twitter-bootstrap-2.3.2">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/twitter-bootstrap-2.3.2/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/twitter-bootstrap-2.3.2/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/tomcat-2.0.4" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/twitter-bootstrap-2.3.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/twitter-bootstrap-2.3.2/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/twitter-bootstrap-2.3.2/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/webxml-1.4.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test2/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/webxml-1.4.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/test/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.0.4" level="application" />
     <orderEntry type="module-library" exported="">
-      <library name="Grails User Library (Test2-grailsPlugins)">
+      <library name="Grails User Library (Test-grailsPlugins)">
         <CLASSES />
         <JAVADOC />
         <SOURCES />

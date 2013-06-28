@@ -34,6 +34,7 @@
 	<g:datePicker name="endDate" precision="day"  value="${eventInstance?.endDate}"  />
 </div>
 
+
 <div class="fieldcontain ${hasErrors(bean: eventInstance, field: 'title', 'error')} ">
 	<label for="title">
 		<g:message code="event.title.label" default="Title" />
