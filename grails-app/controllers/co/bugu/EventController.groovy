@@ -38,7 +38,6 @@ class EventController {
             redirect(controller: 'user', action: 'login')
             return
         }
-//         println(startRange.toGMTString() + "," + endRange.toGMTString())
         def events = Event.withCriteria {
             and{
                 between("startDate", startRange, endRange)
@@ -78,6 +77,9 @@ class EventController {
     def save() {
 
         def eventInstance = new Event(params)
+        def now = new Date()
+        eventInstance.startDate.hours = now.getHours()
+        eventInstance.endDate.hours = now.getHours()
         if (!eventInstance.save(flush: true)) {
             println(eventInstance.errors)
             redirect(view: "create", model: [eventInstance: eventInstance])
@@ -86,6 +88,15 @@ class EventController {
 
         def userInstance = User.get(session.userId)
         userInstance.addToEvents(eventInstance)
+
+        def jsonEvent = [:]
+        if (request.xhr){
+
+            jsonEvent.eventId = eventInstance.id
+            render jsonEvent as JSON
+            return
+
+        }
 
 		flash.message = message(code: 'default.created.message', args: [message(code: 'event.label', default: 'Event'), eventInstance.id])
         redirect(action: "show", id: eventInstance.id)
@@ -249,15 +260,17 @@ class EventController {
     def updateWithJson(){
 
         def result = [result: 'success', message:'the event has been update']
-        println(params.id + "123123123")
 
         def eventInstance = Event.get(params.id)
 
 
 
         if (eventInstance){
+            def now = new Date()
             try{
                 eventInstance.properties = params
+                eventInstance.startDate.hours = now.hours
+                eventInstance.endDate.hours = now.hours
 
 //                result.result = 'fail'
 //                result.message = 'update failed'

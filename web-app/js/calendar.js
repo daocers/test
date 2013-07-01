@@ -123,6 +123,14 @@ function cancelEvent(eventId){
     })
 }
 
+function onUpdateSuccess(){
+    alert('update success')
+
+    $('#calendar').text("")
+    renderCalendar()
+
+}
+
 function ajaxDelete(eventId){
     $.getJSON("ajaxDelete", {id: eventId}, function(data){
         $('#message').text(data.msg);

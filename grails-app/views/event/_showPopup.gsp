@@ -9,7 +9,7 @@
         AllDay:<g:checkBox name="allDay" value="${eventInstance.allDay}" /> <br/>
         StartDate:<g:datePicker name="startDate" precision="day"  value="${eventInstance?.startDate}"  /> <br/>
         EndDate:<g:datePicker name="endDate" precision="day"  value="${eventInstance?.endDate}"  /> <br/>
-         <g:submitToRemote  value="Update" action='updateWithJson' onSuccess="alert('update successfully')"></g:submitToRemote>
+         <g:submitToRemote  value="Update" action='updateWithJson' onSuccess="onUpdateSuccess()"></g:submitToRemote>
     <input type="button" value="Delete" onclick="cancelEvent('${eventInstance.id}')"/>
 
     </form>

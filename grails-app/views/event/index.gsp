@@ -22,8 +22,10 @@
             alert('Event has been saved!')
             $('#addPopup').hide()
 
-
+            $('#calendar').text("")
             renderCalendar()
+
+
         }
     </g:javascript>
 </head>
